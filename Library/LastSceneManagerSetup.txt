@@ -1,0 +1,7 @@
+sceneSetups:
+- path: Assets/testsc.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/MainLevel.unity
+  isLoaded: 1
+  isActive: 1
