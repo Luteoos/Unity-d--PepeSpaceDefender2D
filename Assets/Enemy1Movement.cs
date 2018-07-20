@@ -11,6 +11,6 @@ public class Enemy1Movement : MonoBehaviour
     void Awake()
     {
         _RigidBody2D = GetComponent<Rigidbody2D>();
-        _RigidBody2D.velocity=new Vector2(0,_Speed*-1);
+        _RigidBody2D.velocity = new Vector2(0,_Speed*-1);
     }
 }
