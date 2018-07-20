@@ -24,8 +24,8 @@ public class ProjectileAndCollision : MonoBehaviour
 	    {
 	        _RoFTimer = _rateOfFire;
 
-            Vector3 deployPosition=new Vector3(_rigidBody2D.position.x,_rigidBody2D.position.y,-1);
-            Quaternion rotation=new Quaternion(0,0,0,0);
+            Vector3 deployPosition = new Vector3(_rigidBody2D.position.x,_rigidBody2D.position.y,-1);
+            Quaternion rotation = new Quaternion(0,0,0,0);
 	        GameObject.Instantiate(_projectile,deployPosition,rotation);
         }
 	}
